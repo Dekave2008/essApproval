@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html data-navigation-type="default" data-navbar-horizontal-shape="default" lang="en-US" dir="ltr">
+  <!-- Mirrored from prium.github.io/phoenix/v1.14.0/pages/authentication/card/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Dec 2023 07:45:25 GMT -->
+  <!-- Added by HTTrack -->
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Phoenix</title>
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="vendors/simplebar/simplebar.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="vendors/simplebar/simplebar.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="assets/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
+    <link href="assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <script>
+      var phoenixIsRTL = window.config.config.phoenixIsRTL;
+      if (phoenixIsRTL) {
+        var linkDefault = document.getElementById('style-default');
+        var userLinkDefault = document.getElementById('user-style-default');
+        linkDefault.setAttribute('disabled', true);
+        userLinkDefault.setAttribute('disabled', true);
+        document.querySelector('html').setAttribute('dir', 'rtl');
+      } else {
+        var linkRTL = document.getElementById('style-rtl');
+        var userLinkRTL = document.getElementById('user-style-rtl');
+        linkRTL.setAttribute('disabled', true);
+        userLinkRTL.setAttribute('disabled', true);
+      }
+    </script>
+  </head>
+  <body>
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <!-- Section: Design Block -->
+      <section class="background-radial-gradient overflow-hidden">
+        <style>
+          .background-radial-gradient {
+            background-color: hsl(218, 41%, 15%);
+            background-image: radial-gradient(650px circle at 0% 0%,
+                hsl(218, 41%, 35%) 15%,
+                hsl(218, 41%, 30%) 35%,
+                hsl(218, 41%, 20%) 75%,
+                hsl(218, 41%, 19%) 80%,
+                transparent 100%),
+              radial-gradient(1250px circle at 100% 100%,
+                hsl(218, 41%, 45%) 15%,
+                hsl(218, 41%, 30%) 35%,
+                hsl(218, 41%, 20%) 75%,
+                hsl(218, 41%, 19%) 80%,
+                transparent 100%);
+          }
+
+          #radius-shape-1 {
+            height: 220px;
+            width: 220px;
+            top: -60px;
+            left: -130px;
+            background: radial-gradient(#44006b, #ad1fff);
+            overflow: hidden;
+          }
+
+          #radius-shape-2 {
+            border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+            bottom: -60px;
+            right: -110px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(#44006b, #ad1fff);
+            overflow: hidden;
+          }
+
+          .bg-glass {
+            background-color: hsla(0, 0%, 100%, 0.9) !important;
+            backdrop-filter: saturate(200%) blur(25px);
+          }
+        </style>
+        <div class="container px-4 py-5 px-md-5  text-lg-start my-5">
+          <div class="row gx-lg-5 align-items-center mb-5">
+            <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+              <img src="assets/img/icons/logo-putih.png" alt="phoenix" width="250" />
+              <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">The Delivery of the Right Information, to the Right Person, at the Right Time to empower business decisions and activities. </p>
+            </div>
+            <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+              <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+              <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+              <div class="card bg-glass">
+                <div class="card-body px-4 py-5 px-md-5">
+                  <div class="text-end mb-3">
+                    <img src="assets/img/icons/iconIP.png" width="30" />
+                    <img src="assets/img/icons/sign.png" width="30" />
+                  </div>
+                  <form>
+                    <h4 class="text-body-highlight mb-3">Login Account</h4>
+                    <div class="mb-3 text-start">
+                      <div class="form-icon-container">
+                        <input class="form-control form-icon-input border border-0" id="email" type="email" placeholder="Company ID" />
+                        <span class="fas fa-archway  fs-9 form-icon" style="color:#4C4BC0"></span>
+                      </div>
+                    </div>
+                    <div class="mb-3 text-start">
+                      <div class="form-icon-container">
+                        <input class="form-control form-icon-input border border-0" id="email" type="email" placeholder="User ID" />
+                        <span class="fas fa-user fs-9 form-icon" style="color:#4C4BC0"></span>
+                      </div>
+                    </div>
+                    <div class="mb-3 text-start">
+                      <div class="form-icon-container">
+                        <input class="form-control form-icon-input border border-0" id="password" type="password" placeholder="Password" />
+                        <span class="fas fa-key fs-9 form-icon" style="color:#4C4BC0"></span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="col-auto mb-5">
+                          <div class="form-check form-switch">
+                            <input class="form-check-input" id="flexSwitchCheckChecked" type="checkbox" checked="" style="background-color:#4C4BC0" />
+                            <label class="form-check-label" for="flexSwitchCheckChecked" style="color:#4C4BC0">Remember me</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+
+                        <a type="button" class="btn btn-link " style="color:#4C4BC0" href="forgot-password.html
+                        ">Forgot Password</a>
+                      </div>
+                    </div>
+                    <!-- <button onclick="window.location.href='https://example.com';">Go to Example</button> -->
+                    <a type="button" class="btn btn-primary btn-phoenix  w-100 mb-5" style="background-color:#4C4BC0" href="index.html">LOGIN</a>
+                    <div class="text-center mb-7">
+                      <a class="d-flex flex-center text-decoration-none mb-4" >
+                        <div class="d-flex align-items-center fw-bolder fs-3 d-inline-block">
+                          <img src="assets/img/icons/tageline.png" alt="phoenix" width="280" />
+                        </div>
+                      </a>
+                      <p class="text-center" style="color:#de1212">Copyright PT. Realta Chakradarma</p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Design Block -->
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+    </div>
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/anchorjs/anchor.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="assets/polyfill.io/v3/polyfill.min58be.js?features=window.scroll"></script>
+    <script src="vendors/list.js/list.min.js"></script>
+    <script src="vendors/feather-icons/feather.min.js"></script>
+    <script src="vendors/dayjs/dayjs.min.js"></script>
+    <script src="assets/js/phoenix.js"></script>
+    <script src="assets/js/pages/sign-in.js"></script>
+  </body>
+  <!-- Mirrored from prium.github.io/phoenix/v1.14.0/pages/authentication/card/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Dec 2023 07:45:31 GMT -->
+</html>
